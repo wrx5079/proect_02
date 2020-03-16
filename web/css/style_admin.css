@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/*Nav bar*/
+.nav_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+#nav_img{
+    width: 200px;
+}
+
+
+.nav_center h5 {
+    font-size: 30px;
+    color:darkslategrey ;
+}
+
+.nav_right a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    color:darkslategrey ;
+    margin-left: 5px;
+}
+.nav_right a:hover {
+    color: #FF9200;
+}
+.nav_right i {
+    font-size: 20px;
+    color: dimgrey;
+}
+.nav_background {
+    background-color: #7355ff;
+    height: 50px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(199,199,199,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(199,199,199,1);
+    box-shadow: 0px 0px 10px 2px rgba(199,199,199,1);
+    border-radius: 2px;
+
+}
+.nav_bar {
+    display: flex;
+}
+.nav_catalog {
+    margin-left: 40px;
+    margin-top: 17px;
+    align-items: center;
+    transition: .4s;
+}
+.nav_catalog a:hover{
+    color:cyan;
+}
+.nav_catalog a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.nav_catalog i{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+/*menu*/
+.nav_background_cat{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+
+.nav_categories{
+    display: flex;
+    background: whitesmoke;
+    border-radius: 0px 0px 5px 5px;
+    width: auto;
+}
+.nav_par_cat{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-right: 1px solid lightslategrey;
+
+}
+
+.nav_par_cat ul li {
+    list-style: none;
+    padding: 4px;
+
+
+}
+.nav_par_cat ul li a{
+    text-decoration: none;
+    color: #323232;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 25px;
+    border-bottom:1px solid #c8cacc;
+    padding-bottom: 5px;
+}
+
+.nav_block_category{
+    display: flex;
+}
+.nav_block_category ul li {
+    list-style: none;
+
+}
+.nav_block_category ul li a {
+    text-decoration: none;
+    color: #383838;
+}
+.nav_block_category ul li span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/*content*/
+.content {
+    height: auto;
+    min-height: 80vh;
+}
+.all_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_colum {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    margin-left: 40px;
+    width: 200px;
+    text-align: center;
+   border: 1px solid #c8cacc;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.media_left p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+.media_right p {
+    color: #f4791a;
+    font-weight: 900;
+    font-size: 25px;
+}
+.image_size {
+    width: 200px;
+
+}
+#img {
+    max-width: 100%;
+}
+.card_edit {
+    margin-bottom: 20px;
+}
+.card_edit a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px;
+}
+#edit {
+    color: green;
+
+}
+#delete {
+    color:red;
+
+}
+
+
+
+
+
+/*Create , edit  product*/
+.content2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+}
+.admin_panel {
+
+    min-height: 80vh;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(130,128,130,0.58);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(130,128,130,0.58);
+    box-shadow: inset 0px 0px 5px 0px rgba(130,128,130,0.58);
+
+}
+
+.admin_title {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+   color: #383838;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.add_form_product{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+.block_add_left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.block_add_right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.add_form_product label {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.add_form_product input {
+    width: 100%;
+    height: 30px;
+}
+
+.add_form_product select {
+    height: 37px;
+}
+#button_admin {
+    width: 150px;
+    color: black;
+    background-color: #FF9200;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+    /*Create, edit categories*/
+
+.admin_panel_edit{
+    display: flex;
+    justify-content: space-around;
+}
+.admin_panel_edit p {
+    font-size: 18px;
+
+
+}
+
+
+.admin_panel_edit .fa-trash-o {
+    font-size: 25px;
+    color: red;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.admin_panel_edit .fa-pencil-square-o {
+    font-size: 25px;
+    color: green;
+    margin-left: 20px;
+
+}
+.block_edit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c8cacc;
+
+}
+
+.block_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block_parent_edit{
+
+    width: 30%;
+
+}
+
+.block_under_edit{
+    width: 30%;
+}
+
+.block_brand_edit{
+    width: 30%;
+}
+#select {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#button_delete_brand{
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#category_title{
+    color: #383838;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid #c8cacc;
+    padding-bottom: 10px;
+
+}
+#add_category{
+    background-color: #FF9200;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+
+}
+
+    /*footer*/
+.footer {
+    height: 50px;
+    background: #323232;
+    text-align: center;
+
+}
+.footer p {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+
+/*show product*/
+
