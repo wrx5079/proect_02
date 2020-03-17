@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0375ac58-b26d-46e3-b181-6039eaa7ba4e" name="Default Changelist" comment="" />
+    <list default="true" id="0375ac58-b26d-46e3-b181-6039eaa7ba4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controllers/SearchController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Searchproducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/partials/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/partials/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +27,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -61,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -92,6 +104,7 @@
       <workItem from="1584343933088" duration="13336000" />
       <workItem from="1584357676564" duration="50000" />
       <workItem from="1584363746963" duration="410000" />
+      <workItem from="1584444299764" duration="5718000" />
     </task>
     <servers />
   </component>
@@ -107,22 +120,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584301646887" />
-    <state x="739" y="354" key="NewPhpClassDialog" timestamp="1584124164176">
+    <state x="739" y="354" key="NewPhpClassDialog" timestamp="1584447310544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="354" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584124164176" />
-    <state x="1274" y="455" key="NewPhpFileDialog" timestamp="1584306298484">
+    <state x="739" y="354" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584447310544" />
+    <state x="1274" y="455" key="NewPhpFileDialog" timestamp="1584448135874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1274" y="455" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584306298484" />
+    <state x="1274" y="455" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584448135874" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1584097499712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584097499712" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584363747070">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584444309197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584363747070" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584444309197" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584087440066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,13 +145,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/app/Controllers/Admin/CategoriesController.php</url>
-          <line>86</line>
+          <url>file://$PROJECT_DIR$/app/Models/Searchproducts.php</url>
+          <line>15</line>
           <properties>
-            <option name="className" value="\App\controllers\Admin\CategoriesController" />
-            <option name="methodName" value="delete" />
+            <option name="className" value="\App\Models\Searchproducts" />
+            <option name="methodName" value="search" />
           </properties>
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/Models/Database.php</url>
+          <line>76</line>
+          <properties>
+            <option name="className" value="\App\Models\Database" />
+            <option name="methodName" value="find" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Controllers/SearchController.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

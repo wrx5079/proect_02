@@ -28,9 +28,10 @@
 
             </div>
             <div class="nav_search">
-
-                <input placeholder="Поиск" type="text"  >
-              <i class="fa fa-search" aria-hidden="true"></i>
+                <form action="/search" method="post">
+                <input placeholder="Поиск" type="text"  name="key">
+                    <button type="submit" id="search_button"> <i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
 
             </div>
         </div>

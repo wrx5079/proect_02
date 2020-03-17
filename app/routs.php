@@ -24,6 +24,7 @@ $container = $containerBuilder->build();
 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->get('/', ['App\Controllers\HomeController', 'index']);
+    $r->post('/search', ['App\Controllers\SearchController', 'search']);
     $r->get('/parcategory/{id:\d+}', ['App\Controllers\HomeController', 'parent_category']);
     $r->get('/undercategory/{id:\d+}', ['App\Controllers\HomeController', 'under_category']);
     $r->get('/brand/{id:\d+}', ['App\Controllers\HomeController', 'brand']);
